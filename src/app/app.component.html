@@ -1,20 +1,2 @@
-
-<h2>My Heroes</h2>
-<ul class="heroes" *ngFor="let hero of HEROES">
-  <li>
-    
-      <span class="badge">{{hero.id}}</span>
-      <span class="name">{{hero.name}}</span>
-  
-  </li>
-</ul>
-<div class="container">
-  <textarea placeholder="Input"></textarea>
-  <div >
-    <button class="button" (click)="saveinput()">Add</button>
-  </div>
-  
-</div>
-
-
-<router-outlet></router-outlet>
+<h1>{{title}}</h1>
+<app-heroes></app-heroes>
